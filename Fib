@@ -1,0 +1,12 @@
+number = int(input("Enter number: "))
+
+def fibonacci(number):
+    if number <= 1:
+        return number
+    else:
+        result = (number - 1) + (number - 2)
+        return result
+
+
+for i in range(number):
+    print(fibonacci(i))
